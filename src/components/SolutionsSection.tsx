@@ -3,8 +3,8 @@ import { useRef } from "react";
 import { Globe, Search, Target, Palette, Mail, TrendingUp } from "lucide-react";
 
 const services = [
-  { icon: Globe, title: "Meta Ads visuelles", desc: "Campagnes ciblées sur les propriétaires avec projet de rénovation actif dans votre zone." },
-  { icon: Search, title: "Instagram Outreach", desc: "80 messages/jour vers des propriétaires qualifiés par notre setter dédié." },
+  { icon: Globe, title: "Meta Ads visuelles", desc: "Acquisition de nouveaux patients grâce à des campagnes ciblées dans votre secteur." },
+  { icon: Search, title: "Instagram Outreach", desc: "80 contacts quotidiens avec des patients potentiels, gérés par notre setter dédié." },
   { icon: Target, title: "Setter téléphonique", desc: "Chaque lead rappelé en moins de 2 minutes — zéro lead perdu." },
   { icon: Palette, title: "CRM complet", desc: "Pipeline structuré, relances automatiques sur 15 jours, aucune opportunité oubliée." },
   { icon: Mail, title: "Cold Email", desc: "Séquences automatisées vers des prospects ciblés B2B et B2C." },
