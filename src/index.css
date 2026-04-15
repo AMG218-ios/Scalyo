@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 7% 4%;
+    --foreground: 0 0% 96%;
+
+    --card: 240 5% 10%;
+    --card-foreground: 0 0% 96%;
+
+    --popover: 240 5% 10%;
+    --popover-foreground: 0 0% 96%;
+
+    --primary: 38 42% 60%;
+    --primary-foreground: 240 7% 4%;
+
+    --secondary: 240 4% 14%;
+    --secondary-foreground: 0 0% 96%;
+
+    --muted: 240 4% 14%;
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 30 30% 85%;
+    --accent-foreground: 240 7% 4%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 96%;
+
+    --border: 240 4% 18%;
+    --input: 240 4% 18%;
+    --ring: 38 42% 60%;
+
+    --radius: 0.5rem;
+
+    --gold: 38 42% 60%;
+    --gold-light: 30 30% 85%;
+    --deep-black: 240 7% 4%;
+    --anthracite: 240 5% 11%;
+
+    --sidebar-background: 240 5% 10%;
+    --sidebar-foreground: 0 0% 96%;
+    --sidebar-primary: 38 42% 60%;
+    --sidebar-primary-foreground: 240 7% 4%;
+    --sidebar-accent: 240 4% 14%;
+    --sidebar-accent-foreground: 0 0% 96%;
+    --sidebar-border: 240 4% 18%;
+    --sidebar-ring: 38 42% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(var(--gold)), hsl(var(--gold-light)));
+  }
+
+  .border-gradient-gold {
+    border-image: linear-gradient(135deg, hsl(var(--gold)), hsl(var(--gold-light))) 1;
+  }
+
+  .bg-gradient-dark {
+    background: linear-gradient(180deg, hsl(var(--deep-black)), hsl(var(--anthracite)));
+  }
+
+  .bg-gradient-card {
+    background: linear-gradient(145deg, hsl(var(--anthracite)), hsl(var(--deep-black)));
+  }
+
+  .glow-gold {
+    box-shadow: 0 0 40px -10px hsl(var(--gold) / 0.2);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
