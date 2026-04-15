@@ -3,11 +3,11 @@ import { useRef } from "react";
 import { AlertTriangle, TrendingDown, Users, Shield, CalendarX } from "lucide-react";
 
 const problems = [
-  { icon: Users, title: "Patients non qualifiés", desc: "Des demandes de devis sans suite, des patients qui comparent les prix au rabais." },
-  { icon: TrendingDown, title: "Difficulté à vendre implants & facettes", desc: "Vos traitements premium restent sous-vendus malgré votre expertise." },
+  { icon: Users, title: "Temps perdu en prospection", desc: "Vous passez des heures à chercher des clients au lieu de faire ce que vous faites le mieux — rénover." },
+  { icon: TrendingDown, title: "Bouche à oreille", desc: "80% de vos chantiers viennent de recommandations que vous ne contrôlez ni en volume, ni en qualité, ni en timing." },
   { icon: Shield, title: "Image de marque faible", desc: "Votre clinique ne reflète pas le niveau de soin que vous offrez." },
   { icon: AlertTriangle, title: "Concurrence low-cost", desc: "Les cliniques low-cost attirent vos patients potentiels avec du marketing agressif." },
-  { icon: CalendarX, title: "Agenda irrégulier", desc: "Des semaines pleines, d'autres vides. Aucune prévisibilité." },
+  { icon: CalendarX, title: "Pipeline instable", desc: "Certains mois votre agenda déborde. D'autres il est vide. Impossible de prévoir votre chiffre du mois prochain." },
 ];
 
 const ProblemsSection = () => {

@@ -8,15 +8,6 @@ const HeroSection = () => {
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full opacity-10 blur-[120px]" style={{ background: "hsl(38 42% 60%)" }} />
 
       <div className="relative container mx-auto px-6 text-center max-w-4xl">
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-          className="text-sm uppercase tracking-[0.3em] text-primary mb-8 font-medium"
-        >
-          Agence Marketing Dentaire Premium
-        </motion.p>
-
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

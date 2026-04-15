@@ -2,10 +2,10 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const results = [
-  { value: "+30", suffix: "", label: "patients premium / mois" },
-  { value: "+100k", suffix: "€", label: "CA généré par clinique" },
-  { value: "8.5", suffix: "x", label: "ROI moyen" },
-  { value: "72", suffix: "%", label: "taux de conversion" },
+  { value: "+60", suffix: "", label: "RDV qualifiés garantis dès le mois 1" },
+  { value: "83", suffix: "%", label: "Taux de show sur les rendez-vous" },
+  { value: "7 jours", suffix: "", label: "Pour les premiers RDV dans votre agenda" },
+  { value: "71", suffix: "%", label: "Des clients dépassent leur objectif en 90 jours" },
 ];
 
 const ResultsSection = () => {

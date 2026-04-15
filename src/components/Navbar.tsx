@@ -37,12 +37,6 @@ const Navbar = () => {
         </div>
         <div className="hidden md:flex items-center gap-4">
           <Link
-            to="/admin"
-            className="inline-flex items-center px-5 py-2.5 text-sm font-semibold border border-border text-foreground rounded-sm hover:bg-card transition-colors tracking-wide"
-          >
-            AAAA
-          </Link>
-          <Link
             to="/audit"
             className="inline-flex items-center px-6 py-2.5 text-sm font-semibold bg-primary text-primary-foreground rounded-sm hover:opacity-90 transition-opacity tracking-wide"
           >
